@@ -24,3 +24,13 @@ Add npm packages vue-router and tailwindcss in our dev dependencies
 
 [Laravel API Development & Vue JS SPA - e02 - Vue Router](https://www.youtube.com/watch?v=wJN_7YJkzRw&list=PLpzy7FIRqpGBBKr4FVpEs1fA7uCibdCZ9&index=2)
 Setup vue-router package to handle all of the routing
+
+## Tailwind CSS
+
+[Laravel API Development & Vue JS SPA - e03 - Tailwind CSS](https://www.youtube.com/watch?v=wX1QKUISQjI&list=PLpzy7FIRqpGBBKr4FVpEs1fA7uCibdCZ9&index=3)
+Setup [Tailwind CSS](https://tailwindcss.com/docs/installation/). Though I don't understand why the command we did earlier doesn't cover this new one...
+- npm install tailwindcss
+Add directives to app.scss
+Setup base config
+- npx tailwind init
+Let Laravel Mix know about tailwind. This is a little complex, and I needed to restart 'npm run watch' for the changes to appear. Follow video...
