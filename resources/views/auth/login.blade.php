@@ -1,9 +1,23 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <!-- <div class="row justify-content-center"> -->
-    <div class="bg-red-400">
+<div class="mx-auto h-full flex justify-center items-center bg-gray-300"> <!-- center x left to right, take up entire height, everything inside take up all room needed, entire thing centered on browser, background to gray 300 -->
+    <div class="w-96 bg-blue-900 rounded-lg shawdow-xl p-6"> <!-- set width to 64, background to blue 900, rounded corners, shadow around entire, padding of 6 -->
+
+    <svg 
+     class="fill-current text-white"
+     version="1.1"
+     baseProfile="full"
+     width="300" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="grey" />
+    <circle cx="150" cy="100" r="80" fill="blue" />
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">YM</text>
+    </svg>
+
+    <h1 class="text-white text-3xl pt-8">Welcome back</h1>
+    <h2 class="text-blue-300">Enter your credientials below</h2>
+
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>

@@ -34,3 +34,9 @@ Add directives to app.scss
 Setup base config
 - npx tailwind init
 Let Laravel Mix know about tailwind. This is a little complex, and I needed to restart 'npm run watch' for the changes to appear. Follow video...
+
+## Login View
+
+[Laravel API Development & Vue JS SPA - e04 - Login View 1](https://www.youtube.com/watch?v=vD3T6M7Hlm0&list=PLpzy7FIRqpGBBKr4FVpEs1fA7uCibdCZ9&index=4)
+Mentions having access to course files. Since I'm watching intro on YouTube I don't have access to this yet.
+This episode is essentially applying tailwind classes to the login page.
