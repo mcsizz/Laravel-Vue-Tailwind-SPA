@@ -12,3 +12,7 @@ Create new project [Via Composer Create-Project](https://laravel.com/docs/6.0/in
 Create authentication the [quick way](https://laravel.com/docs/6.0/authentication#authentication-quickstart)
 - composer require laravel/ui --dev
 - php artisan ui vue --auth
+Remove default Vue/Bootstrap by setting preset to none
+- php artisan preset none
+Add back the base Vue preset
+- php artisan preset vue
