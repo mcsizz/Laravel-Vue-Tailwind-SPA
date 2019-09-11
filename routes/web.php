@@ -5,16 +5,10 @@
 | Web Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| Because this is a SPA, there will be one route that matches everything!
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/{any}', 'AppController@index')->where('any', '.*'); // Anything that comes after the initial /, inside the variable any, match anything zero or more times (everything)
