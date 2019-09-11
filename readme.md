@@ -40,3 +40,8 @@ Let Laravel Mix know about tailwind. This is a little complex, and I needed to r
 [Laravel API Development & Vue JS SPA - e04 - Login View 1](https://www.youtube.com/watch?v=vD3T6M7Hlm0&list=PLpzy7FIRqpGBBKr4FVpEs1fA7uCibdCZ9&index=4)
 Mentions having access to course files. Since I'm watching intro on YouTube I don't have access to this yet.
 This episode is essentially applying tailwind classes to the login page.
+Got a bit distracted by trying to create an SVG graphic! Bummers...
+
+## Login View 2
+[Laravel API Development & Vue JS SPA - e05 - Login View 2](https://www.youtube.com/watch?v=izkbbc6GJls&list=PLpzy7FIRqpGBBKr4FVpEs1fA7uCibdCZ9&index=5)
+This episode applies more tailwind classes to the login page. Almost done!
