@@ -11,3 +11,4 @@ Create new project [Via Composer Create-Project](https://laravel.com/docs/6.0/in
 -  composer create-project --prefer-dist laravel/laravel jot
 Create authentication the [quick way](https://laravel.com/docs/6.0/authentication#authentication-quickstart)
 - composer require laravel/ui --dev
+- php artisan ui vue --auth
