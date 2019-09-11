@@ -16,3 +16,5 @@ Remove default Vue/Bootstrap by setting preset to none
 - php artisan preset none
 Add back the base Vue preset
 - php artisan preset vue
+Add npm packages vue-router and tailwindcss in our dev dependencies
+- npm install vue-router tailwindcss --save-dev
