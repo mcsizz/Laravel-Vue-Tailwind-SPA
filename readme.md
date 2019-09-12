@@ -45,3 +45,7 @@ Got a bit distracted by trying to create an SVG graphic! Bummers...
 ## Login View 2
 [Laravel API Development & Vue JS SPA - e05 - Login View 2](https://www.youtube.com/watch?v=izkbbc6GJls&list=PLpzy7FIRqpGBBKr4FVpEs1fA7uCibdCZ9&index=5)
 This episode applies more tailwind classes to the login page. Almost done!
+
+## Login View 3
+[Laravel API Development & Vue JS SPA - e06 - Login View 3](https://www.youtube.com/watch?v=IUiwzrK2fpI&list=PLpzy7FIRqpGBBKr4FVpEs1fA7uCibdCZ9&index=6)
+This episode applies final tailwind classes to the login page. Done!
