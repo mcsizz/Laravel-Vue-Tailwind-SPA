@@ -2,20 +2,36 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+<div class="mx-auto h-full flex justify-center items-center bg-gray-300">
+    <div class="w-96 bg-blue-900 rounded-lg shawdow-xl p-6">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="fill-current text-white w-24 ml-8 mt-8">
+            <!-- LineTo commands with absolute coordinates -->
+            <path fill="none" stroke="black" stroke-width="6"
+                d="M 50,100
+                   L 50,65
+                   L 15,2
+                   M 50,65
+                   L 85,2
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                   M 10,98
+                   L 30,2
+                   L 50,40
+                   L 70,2
+                   L 90,98">
+        </svg>
+
+
+        <h1 class="text-white text-3xl pt-8">Welcome new user</h1>
+        <h2 class="text-blue-300">Register by entering your information below</h2>
+                
+                    <form method="POST" action="{{ route('register') }}" class="pt-8">
                         @csrf
 
-                        <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
+                        <div class="relative">
+                            <label for="name" class="uppercase text-blue-500 text-xs font-bold absolute pl-3 pt-2">Name</label>
 
-                            <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                            <div>
+                                <input id="name" type="text" class="pt-8 w-full rounded p-3 bg-blue-800 text-gray-300 outline-none focus:bg-blue-700" name="name" value="{{ old('name') }}" autocomplete="name" autofocus placeholder="your@email.com">
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -69,7 +85,7 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                
             </div>
         </div>
     </div>
