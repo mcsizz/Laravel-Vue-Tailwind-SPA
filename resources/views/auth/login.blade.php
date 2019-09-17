@@ -40,7 +40,7 @@
             <div class="relative pt-3">
                 <label for="password" class="uppercase text-blue-500 text-xs font-bold absolute pl-3 pt-2">Password</label>
 
-                <div class="">
+                <div>
                     <input id="password" type="password" class="pt-8 w-full rounded p-3 bg-blue-800 text-gray-300 outline-none focus:bg-blue-700" name="password" autocomplete="current-password">
 
                     @error('password')
