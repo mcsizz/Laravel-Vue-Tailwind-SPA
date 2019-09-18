@@ -33,7 +33,7 @@
                     <input id="name" type="text" class="pt-8 w-full rounded p-3 bg-blue-800 text-gray-300 outline-none focus:bg-blue-700" name="name" value="{{ old('name') }}" autocomplete="name" autofocus placeholder="your@email.com">
 
                     @error('name')
-                        <span class="invalid-feedback" role="alert">
+                        <span class="text-red-600 text-sm pt-1" role="alert">
                             <strong>{{ $message }}</strong>
                         </span>
                     @enderror
@@ -72,7 +72,7 @@
                 <label for="password-confirm" class="uppercase text-blue-500 text-xs font-bold absolute pl-3 pt-2">Confirm Password</label>
 
                 <div class="col-md-6">
-                    <input id="password-confirm" type="password" class="pt-8 w-full rounded p-3 bg-blue-800 text-gray-300 outline-none focus:bg-blue-700" name="password_confirmation" required autocomplete="new-password">
+                    <input id="password-confirm" type="password" class="pt-8 w-full rounded p-3 bg-blue-800 text-gray-300 outline-none focus:bg-blue-700" name="password_confirmation" autocomplete="new-password">
                 </div>
             </div>
 
